@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">QR</string>
+    <string name="asset_statements">
+        [{
+            \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+            \"target\": {
+                \"namespace\": \"web\",
+                \"site\": \"https://qr.zpro.app\"}
+        }]
+    </string>
 </resources>
