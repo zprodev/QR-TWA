@@ -13,7 +13,7 @@
             android:resource="@string/asset_statements" />
 
         <activity
-            android:name="android.support.customtabs.trusted.LauncherActivity">
+            android:name=".MainActivity">
 
             <meta-data
                 android:name="android.support.customtabs.trusted.DEFAULT_URL"
