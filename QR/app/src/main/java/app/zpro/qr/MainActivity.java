@@ -18,6 +18,7 @@ public class MainActivity extends android.support.customtabs.trusted.LauncherAct
         int primaryDarkColor = res.getColor(R.color.colorPrimaryDark);
         CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder(session);
         builder.setToolbarColor(primaryDarkColor);
+        builder.setStartAnimations(this, R.anim.twa_enter, R.anim.twa_wait );
         return builder.build();
     }
 }
